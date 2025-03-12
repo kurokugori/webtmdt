@@ -61,4 +61,8 @@ function them2theloai(Request $request){
     return "Thêm thành công.";
 }
 
+function name(){
+    return "Lê Thị Thùy Linh";
+}
+
 }

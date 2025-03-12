@@ -41,5 +41,9 @@ Route::get('/sach/theloai/{id}','App\Http\Controllers\ViduLayoutController@thelo
 
 Route::get('/sach/chitiet/{id}','App\Http\Controllers\ViduLayoutController@chitiet');
 
+
 //name
 Route::get('/name','App\Http\Controllers\Name@name');
+
+Route::get('/name1','App\Http\Controllers\BookController@name');
+
